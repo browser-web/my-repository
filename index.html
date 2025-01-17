@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="logo.png" type="image/png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Whimsy Waves - A magical kids' radio station sharing stories and adventures.">
+  <title>Whimsy Waves</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Bubblegum Sans', 'Comic Sans MS', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #FFFBEB;
+    }
+
+    header {
+      background: linear-gradient(90deg, #FF6F61, #FFD700);
+      color: white;
+      padding: 1rem 0;
+    }
+
+    header nav ul {
+      list-style: none;
+      text-align: center;
+      padding: 0;
+    }
+
+    header nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    header nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: linear-gradient(120deg, #87CEEB, #FFA07A);
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 5px #FF4500;
+    }
+
+    .hero p {
+      font-size: 1.8rem;
+      margin-top: 10px;
+    }
+
+    .cta-button {
+      background-color: #FFD700;
+      color: #FF4500;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 15px;
+      margin-top: 20px;
+      display: inline-block;
+      font-weight: bold;
+      font-size: 1.5rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .cta-button:hover {
+      background-color: #FF4500;
+      color: white;
+      transform: scale(1.1);
+      transition: all 0.3s ease-in-out;
+    }
+
+    /* Stories Section */
+    #stories {
+      text-align: center;
+      padding: 50px 0;
+      background: #FFFBEB;
+      background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    }
+
+    #stories h2 {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      color: #FF4500;
+    }
+
+    .story-card {
+      display: inline-block;
+      background-color: #FFFACD;
+      border: 3px solid #FF4500;
+      border-radius: 20px;
+      padding: 25px;
+      margin: 20px;
+      width: 260px;
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .story-card:hover {
+      transform: translateY(-15px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .story-card h3 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #FF4500;
+    }
+
+    .story-card p {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(90deg, #FFD700, #FF6F61);
+      color: white;
+      margin-top: 30px;
+      font-size: 1.2rem;
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    .story-card:hover h3 {
+      animation: bounce 0.5s;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="Whimsy waves.html">Home</a></li>
+   
+        <li><a href="Contact us.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Whimsy Waves</h1>
+    <p>Your magical station for stories and adventures!</p>
+    <a href="#stories" class="cta-button">Listen to Stories</a>
+  </section>
+
+  <!-- Stories Section -->
+  <section id="stories">
+    <h2>Featured Stories</h2>
+    <div class="story-card">
+      <h3>The Brave Little Bunny</h3>
+      <p>A tale of courage and friendship in a magical forest.</p>
+      <a href="loading.html">Listen Now</a>
+    </div>
+    <div class="story-card">
+      <h3>Captain Cloud's Adventure</h3>
+      <p>Join Captain Cloud as he explores the skies!</p>
+      <a href="loading.html">Listen Now</a>
+    </div>
+    <div class="story-card">
+      <h3>The Mystery of the Hidden Treasure</h3>
+      <p>A thrilling pirate adventure on the high seas.</p>
+      <a href="loading.html">Listen Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Whimsy Waves &copy; 2025. All rights reserved.</p>
+  </footer>
+</body>
+</html>
